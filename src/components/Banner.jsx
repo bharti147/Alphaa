@@ -87,10 +87,10 @@ function Banner() {
   return (
     <div
       ref={bannerRef} // Assign ref to the banner div
-      className="bg-custom-orange2 font-sans px-10 py-16 flex flex-col items-center"
+      className="bg-custom-blue font-sans px-10 py-16 flex flex-col items-center"
     >
       <h1
-        className={`text-4xl font-bold text-custom-dark text-center leading-relaxed mb-5 
+        className={`text-4xl font-bold text-white text-center leading-relaxed mb-5 
         transform ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
         }`}
@@ -98,10 +98,11 @@ function Banner() {
           transition: "transform 1s ease-in-out, opacity 2s ease-in-out",
         }}
       >
-        Talk To PAWAN Now!
+        Talk To Vijay Sahani Now!
       </h1>
       <button
         className={`bg-white w-full py-4 rounded font-bold mb-8
+        lg:w-auto lg:px-12 lg:rounded-xl
         transform ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
         }`}
@@ -111,10 +112,10 @@ function Banner() {
       >
         CONTACT US
       </button>
-      <p className="flex flex-col text-center text-xl text-custom-dark text-wrap">
+      <p className="flex flex-col text-center text-xl text-white text-wrap">
         Feel Free to Get in Touch for a No Obligations{" "}
         <a href="#" className="underline cursor-pointer font-bold mt-5">
-          CALL PAWAN !!!
+          CALL US !!!
         </a>
       </p>
     </div>

@@ -3,7 +3,7 @@ import { MdLocationOn, MdCall, MdAccessTimeFilled } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
 
-import logo from "../assets/logo.png";
+import logo2 from "../assets/logo2.png";
 import { NavLink } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
 import ServicesDropDown from "./ServicesDropDown";
@@ -21,26 +21,27 @@ function Header() {
        sm:py-2 sm:text-normal 
        md:flex md:flex-row md:justify-center md:text-right md:items-center md:px-2 md:py-4
        lg:justify-end lg:pr-12
+      
 
         "
       >
         <h2 className="flex items-center mx-4 my-1 md:text-md">
-          <MdLocationOn className="text-sm text-custom-orange mr-1 lg:text-lg" />
-          Sydney, Australia
+          <MdLocationOn className="text-sm text-custom-blue mr-1 lg:text-lg" />
+         Hisar, Haryana
         </h2>
         <h2 className="flex items-center mx-4 my-1 md:text-md ">
-          <MdCall className="text-sm text-custom-orange mr-1 lg:text-lg" />
-          0468328227
-        </h2>
-        <h2 className="flex items-center mx-4 my-1 md:text-md ">
-          {" "}
-          <MdAccessTimeFilled className="text-sm text-custom-orange mr-1 lg:text-lg" />{" "}
-          Mon - Fri: 9:00am - 5:00pm
+          <MdCall className="text-sm text-custom-blue mr-1 lg:text-lg" />
+          9728181252
         </h2>
         <h2 className="flex items-center mx-4 my-1 md:text-md ">
           {" "}
-          <MdAccessTimeFilled className="text-sm text-custom-orange mr-1 lg:text-lg" />{" "}
-          Weekends Appointments Only
+          <MdAccessTimeFilled className="text-sm text-custom-blue mr-1 lg:text-lg" />{" "}
+          Mon - Fri: 9:00am - 7:00pm
+        </h2>
+        <h2 className="flex items-center mx-4 my-1 md:text-md ">
+          {" "}
+          <MdAccessTimeFilled className="text-sm text-custom-blue mr-1 lg:text-lg" />{" "}
+          Appointments All Week
         </h2>
       </div>
 
@@ -50,6 +51,7 @@ function Header() {
       md:justify-between md:flex-row
        lg:items-center lg:justify-between lg:h-20  lg:py-12
        xl:items-center xl:justify-between xl:h-28 
+        
       "
       >
         {/* logo */}
@@ -59,7 +61,7 @@ function Header() {
           lg:object-contain lg:h-28 lg:mt-4 lg:pl-10 
           xl:object-cover xl:h-44 xl:mt-4 xl:pl-40
          "
-          src={logo}
+          src={logo2}
           alt="logo"
         />
 
