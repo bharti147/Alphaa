@@ -114,7 +114,7 @@ function Intro() {
             <li className="flex items-center  text-base mb-3 xl:text-xl">
               {" "}
               <MdAccessTimeFilled className="text-custom-blue text-lg mr-3" />
-              Weekends Appointments Only
+              All Week Appointments 
             </li>
           </ul>
 

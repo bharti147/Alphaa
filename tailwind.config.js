@@ -26,6 +26,9 @@ export default {
       fontFamily: {
         signika: ['"Signika Negative"', 'sans-serif'],
       },
+      screens:{
+        'xs-sm':'480px'
+      }
     },
   },
   plugins: [],
