@@ -8,17 +8,17 @@ import { Carousel } from 'react-responsive-carousel';
 function Homepart3() {
   return (
     <div className='relative w-full h-auto border  border-red-700'>
-    <Carousel className='h-auto ' autoPlay infiniteLoop interval={1500}>
-                <div className='h-[30rem] object-center '>
-                    <img src={hp1}/>
+    <Carousel className='h-auto ' autoPlay infiniteLoop interval={2000}>
+                <div className='h-[30rem]  '>
+                    <img src={hp1} className='h-full w-full object-cover object-center'/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div className='h-[30rem]'>
-                    <img className='object-center' src={hp2} />
+                    <img className='h-full w-full object-cover object-left' src={hp2} />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div className='h-[30rem]'>
-                    <img className='object-center' src={hp3} />
+                    <img className='h-full w-full object-cover object-center' src={hp3} />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
